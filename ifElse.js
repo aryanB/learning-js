@@ -1,1 +1,1 @@
-alert('Yo!')
+alert('Yo!!')
