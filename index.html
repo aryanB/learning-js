@@ -5,9 +5,33 @@
     <title>Base HTML</title>
   </head>
   <body>
+    <script src="Roh.js" charset="utf-8"></script>
     <div>
-      Hello World!
+      <form class="" action="index.html" method="post">
+        <div class="f_no">
+          <label for="f_number">
+              First Number
+              <input type="text" name="firstnumber" value="" id="f_number">
+          </label>
+        </div>
+        <div class="s_no">
+          <label for="s_number">
+            Second Number
+            <input type="text" name="secondnumber" value="" id="s_number">
+          </label>
+        </div>
+        <div id="result">
+
+        </div>
+        <div class="submit">
+          <button type="button" onClick="calcSum()">
+            Add
+          </button>
+        </div>
+      </form>
+
+
     </div>
-    <script src="ifElse.js" charset="utf-8"></script>
+
   </body>
 </html>
